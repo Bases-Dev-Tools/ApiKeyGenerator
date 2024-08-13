@@ -75,6 +75,7 @@ namespace OnBaseAPIKeyGenerator
             return password;
         }
 
+        //Replace this Key with your own 64 character key
         private static string _key = "RTCQSWOWR3VG1YQnrDe+VUv+ZXFF+gfFs2c4FtZTduc=";
         private static string CreateApiKey(string username, string password)
         {
